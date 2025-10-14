@@ -32,10 +32,12 @@ Please find the [examples]((https://github.com/devwithkrishna/terraform-azure-da
 ├── providers.tf
 ├── test
 │   ├── README.md
+│   ├── go.mod
+│   ├── go.sum
 │   └── terratest_test.go
 └── variables.tf
 
-5 directories, 15 files
+5 directories, 17 files
 ```
 <!-- END_REPO_TREE -->
 

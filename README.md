@@ -1,14 +1,14 @@
-[![terraform-lint](https://github.com/{ORG_NAME}/{REPO_NAME}/actions/workflows/terraform-lint.yml/badge.svg)](https://github.com/{ORG_NAME}/{REPO_NAME}/actions/workflows/terraform-lint.yml)
-[![go](https://github.com/{ORG_NAME}/{REPO_NAME}/actions/workflows/go.yml/badge.svg)](https://github.com/{ORG_NAME}/{REPO_NAME}/actions/workflows/go.yml)
-[![update-readme](https://github.com/{ORG_NAME}/{REPO_NAME}/actions/workflows/update-readme.yml/badge.svg)](https://github.com/{ORG_NAME}/{REPO_NAME}/actions/workflows/update-readme.yml)
-[![create-release](https://github.com/{ORG_NAME}/{REPO_NAME}/actions/workflows/release.yml/badge.svg)](https://github.com/{ORG_NAME}/{REPO_NAME}/actions/workflows/release.yml)
-[![auto-fill-readme](https://github.com/{ORG_NAME}/{REPO_NAME}/actions/workflows/auto-fill-readme.yml/badge.svg)](https://github.com/{ORG_NAME}/{REPO_NAME}/actions/workflows/auto-fill-readme.yml)
+[![terraform-lint](https://github.com/githubofkrishnadhas/terraform-azure-datafactory/actions/workflows/terraform-lint.yml/badge.svg)](https://github.com/githubofkrishnadhas/terraform-azure-datafactory/actions/workflows/terraform-lint.yml)
+[![go](https://github.com/githubofkrishnadhas/terraform-azure-datafactory/actions/workflows/go.yml/badge.svg)](https://github.com/githubofkrishnadhas/terraform-azure-datafactory/actions/workflows/go.yml)
+[![update-readme](https://github.com/githubofkrishnadhas/terraform-azure-datafactory/actions/workflows/update-readme.yml/badge.svg)](https://github.com/githubofkrishnadhas/terraform-azure-datafactory/actions/workflows/update-readme.yml)
+[![create-release](https://github.com/githubofkrishnadhas/terraform-azure-datafactory/actions/workflows/release.yml/badge.svg)](https://github.com/githubofkrishnadhas/terraform-azure-datafactory/actions/workflows/release.yml)
+[![auto-fill-readme](https://github.com/githubofkrishnadhas/terraform-azure-datafactory/actions/workflows/auto-fill-readme.yml/badge.svg)](https://github.com/githubofkrishnadhas/terraform-azure-datafactory/actions/workflows/auto-fill-readme.yml)
 
-# {REPO_NAME}
+# terraform-azure-datafactory
 
 ## Examples
 
-Please find the [examples]((https://github.com/{ORG_NAME}/{REPO_NAME}//tree/main/examples)) here 
+Please find the [examples]((https://github.com/githubofkrishnadhas/terraform-azure-datafactory//tree/main/examples)) here 
 
 ## 📂 Structure
 
@@ -37,4 +37,4 @@ terraform-docs markdown table --output-file README.md --output-mode inject .
 ```
 
 
-#### This repository is maintained by {ORG_NAME}.
+#### This repository is maintained by githubofkrishnadhas.

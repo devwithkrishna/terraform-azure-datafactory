@@ -11,7 +11,7 @@
 2. Initialize the Go module (replace module path):
    - Example:
     ```
-     go mod init github.com/{ORG_NAME}/{REPO_NAME}/test
+     go mod init github.com/githubofkrishnadhas/terraform-azure-datafactory/test
     ```
 
 ### Install test dependencies (example)

@@ -1,12 +1,14 @@
 name: go
 
 on:
-  push:
-    branches:
-    - main
   pull_request:
     branches:
     - main
+    paths:
+    - '**.tf'
+    - 'examples/**'
+    - 'test/**'
+    - '.github/workflows/go.yml'
 
 jobs:
   test:

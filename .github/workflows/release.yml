@@ -2,10 +2,14 @@ name: create-release
 
 on:
   pull_request:
-    types:
-    - closed
+    types: [ closed ]
     branches:
     - main
+    paths:
+    - '.github/workflows/re;ease.yml'
+    - '**.tf'
+    - 'examples/**'
+    - 'test/**'
 
 permissions:
   contents: write

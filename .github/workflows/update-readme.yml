@@ -1,9 +1,14 @@
 name: update-readme
 
 on:
+  workflow_dispatch:
   push:
     branches:
     - main
+    paths:
+    - '.github/workflows/update-readme.yml'
+    - 'README.md'
+    - 'test/README.md'
 
 permissions:
   contents: write

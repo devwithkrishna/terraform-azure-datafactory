@@ -97,7 +97,7 @@ No modules.
 
 ## How to generate this README
 
-This README section is automatically generated using [terraform-docs](https://terraform-docs.io/)a powerful documentation generator for Terraform modules.
+This README section is automatically generated using [terraform-docs](https://terraform-docs.io/) a powerful documentation generator for Terraform modules.
 
 It parses your module’s variables, outputs, providers, and resources to produce consistent and up-to-date Markdown documentation directly inside your README file.
 

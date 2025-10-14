@@ -1,40 +1,51 @@
-# # This file defines all input variables for your Terraform configuration
-# # Variables allow users to customize the deployment without modifying code
+# This file defines all input variables for your Terraform configuration
+# Variables allow users to customize the deployment without modifying code
 
-# variable "resource_group_name" {
-#   description = "Name of the resource group"
-#   type        = string
-#   default     = "example-rg"
-# }
+variable "resource_group_name" {
+  type        = string
+  description = "Azure Datafactory Rg"
+}
 
-# variable "location" {
-#   description = "Azure region"
-#   type        = string
-#   default     = "Central India"
-# }
+variable "location" {
+  type        = string
+  description = "Azure Data factory location"
+}
 
-# variable "environment" {
-#   description = "Environment tag"
-#   type        = string
-#   default     = "DEV"
-# }
+variable "data_factory_name" {
+  description = "Azure Data factory name"
+  type        = string
+}
 
-# variable "application_name" {
-#   description = "Application name tag"
-#   type        = string
-#   default    = "devwithkrishna"
-  
-# }
-# variable "temporary" {
-#   description = "temporary name tag"
-#   type        = string
-#   default    = "TRUE"
-  
-# }
+variable "environment" {
+  description = "Environment tag value in Azure"
+  type        = string
+  validation {
+    condition     = contains(["DEV", "QA", "UAT", "PROD"], var.environment)
+    error_message = "Environment value should be one among DEV or QA or UAT or PROD."
+  }
+}
 
-# # TODO: Add more variables as needed for your specific resources
-# # variable "variable_name" {
-# #   description = "variable description"
-# #   type        = data type
-# #   default     = "default value (if any)" q
-# # }
+variable "application_name" {
+  description = "Azure application name tag"
+  type        = string
+}
+
+
+variable "temporary" {
+  description = "Temporary tag value in Azure"
+  type        = string
+  validation {
+    condition     = contains(["TRUE", "FALSE"], upper(var.temporary))
+    error_message = "The temporary tag value must be either 'TRUE' or 'FALSE'."
+  }
+}
+
+variable "managed_virtual_network_enabled" {
+  description = "Is Managed Virtual Network enabled"
+  type        = string
+}
+
+variable "public_network_enabled" {
+  description = "Is Public Network enabled"
+  type        = string
+}

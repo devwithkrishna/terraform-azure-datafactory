@@ -8,7 +8,7 @@
 
 ## Examples
 
-Please find the [examples]((https://github.com/devwithkrishna/terraform-azure-datafactory//tree/main/examples)) here 
+Please find the [examples]((https://github.com/devwithkrishna/terraform-azure-datafactory/tree/main/examples)) here 
 
 ## 📂 Structure
 

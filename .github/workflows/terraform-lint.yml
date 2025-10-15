@@ -6,7 +6,6 @@ on:
     - '**.tf'
     - 'examples/**'
     - 'test/**'
-    - '.github/workflows/terraform-lint.yml'
 
 jobs:
   tflint:
